@@ -5,6 +5,7 @@ jQuery(function() {
 		workBelt();
 		workLoad();
 		showElement();
+		showElementEnglish();
 	});
 });
 
@@ -66,6 +67,17 @@ function showElement() {
 	$('a.text').bind('click', function() {
 	    $('div.textcontent').fadeOut(0);
 	    $('#'+$(this).attr('id')+'content').delay(100).fadeIn(800);
+	});  
+
+};
+
+
+function showElementEnglish() {
+
+	$('div.textcontent-ing').hide();
+	$('a.text-ing').bind('click', function() {
+	    $('div.textcontent-ing').fadeOut(0);
+	    $('#'+$(this).attr('id')+'content-ing').delay(100).fadeIn(800);
 	});  
 
 };
