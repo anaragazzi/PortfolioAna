@@ -311,6 +311,7 @@ h3 {
   display: none;
   position: relative; }
   .work-container .svg-proj-1 {
+    max-width: 700px;
     margin-bottom: 20px; }
   .work-container .logo-marshmallow {
     text-align: center;
