@@ -418,7 +418,8 @@ h3 {
   .work-container {
     padding: 0px 7px 0px 7px; }
     .work-container .svg-proj-1 {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      width: 350px; }
     .work-container .logo-marshmallow {
       text-align: center;
       margin: auto; }
