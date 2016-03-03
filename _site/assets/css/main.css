@@ -106,7 +106,7 @@ header {
       justify-content: space-around; }
       .biography .about .fave-icon .icons {
         margin: auto;
-        width: 60px;
+        width: 300px;
         height: auto;
         padding: 10px;
         transition: all 0.3s ease-in-out;
@@ -493,7 +493,7 @@ h3 {
       .curriculum .experiences .work .icon-img {
         margin: auto;
         heigth: 100px;
-        width: 100px;
+        max-width: 100px;
         padding-bottom: 15px; }
       .curriculum .experiences .work h6 {
         color: #87c2d2;
