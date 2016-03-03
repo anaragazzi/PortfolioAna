@@ -413,9 +413,10 @@ h3 {
           background: none;
           transform: scale(0.9);
           margin: 15px; } }
-@media (max-width: 700px) {
+@media (max-width: 450px) {
   .work-container {
-    padding: 0px 7px 0px 7px; }
+    padding: 0px 7px 0px 7px;
+    max-width: 450px; }
     .work-container .svg-proj-1 {
       margin-bottom: 10px;
       text-align: center; }
