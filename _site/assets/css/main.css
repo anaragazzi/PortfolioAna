@@ -334,6 +334,9 @@ h3 {
     .work-container .img-proj-4-wrap .img-proj-4-2 {
       position: relative;
       float: right; }
+  .work-container .img-proj-7 {
+    display: flex;
+    flex-wrap: wrap; }
   .work-container h4 {
     color: #acd287;
     text-align: center;
